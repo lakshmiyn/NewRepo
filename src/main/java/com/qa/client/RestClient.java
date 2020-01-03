@@ -26,6 +26,7 @@ public class RestClient {
 	CloseableHttpResponse closebaleHttpResponse =  httpClient.execute(httpget); //hit the GET URL
 	
 	return closebaleHttpResponse;
+	System.out.println("hello world");
 		
 	}
 	
