@@ -22,12 +22,12 @@ public class RestClient {
 	//1. GET Method without Headers:
 	public CloseableHttpResponse get(String url) throws ClientProtocolException, IOException{
 	CloseableHttpClient httpClient = HttpClients.createDefault();
-	
+
 	HttpGet httpget = new HttpGet(url); //http get request
 	CloseableHttpResponse closebaleHttpResponse =  httpClient.execute(httpget); //hit the GET URL
 	
 	return closebaleHttpResponse;
-	System.out.println("hello world");
+	System.out.println("hello world.......");
 		
 	}
 	
